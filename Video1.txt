@@ -1,0 +1,34 @@
+Programación: Es la disciplina del software.
+
+Software: Aplicaciones, soporte lógico del dispositivo
+Hardware: Componentes Físicos.
+
+Videosjuegos -> Sistemas Operativos
+
+Lenguaje de Programación: Sintaxis.
+Algoritmo: Conjunto Fínitos de Pasos.
+
+Eficiencia: Para poder medir que los algoritmos, debemos medir con su función t1 = time()
+t2 = time()
+
+print(t2-t1) #Es el tiempo de ejecución del programa.
+
+from time import time
+t1 = time()
+a = open("Entrada.txt", "r")
+l = []
+
+for line in a:
+	suma = 0; p = line.strip("\n")
+	for i in p:
+		suma += int(i)
+		if(suma > 36): break # Sin este algoritmo tardo 17.83 segundos
+	if (suma == 36): l.append(int(p))
+l.sort()
+print(l[len(l)-1])
+t2 = time()
+print(t2-t1)
+#Tardo total 3.90 segundos
+
+Python reutilizar códigos, para poder implementar más funciones, sin tenerlo en un archivo.
+

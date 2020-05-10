@@ -1,0 +1,5 @@
+insertion sort, bogo sort, quick sort
+bubble sort, selection sort, merge sort
+shell sort, bitonic sort, heap sort
+
+Eficiencia de algoritmos O grande Big(OH)

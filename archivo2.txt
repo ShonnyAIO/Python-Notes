@@ -1,0 +1,10 @@
+Hola Johnny
+Las primeras 7 lineas del abecedario son: 
+a
+b
+c
+d
+e
+f
+g
+

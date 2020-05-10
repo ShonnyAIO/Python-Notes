@@ -1,0 +1,34 @@
+Pilas: Last In Firts Out, estructura LIFO
+
+EL último en almacenarlo, se retira de primero
+
+Push() : APilar
+Pop() : Desapilar
+
+No tienes que trabajar con punteros
+
+pila = [True, "abc", 4]
+pila.apṕend(7.1)
+ultimo = pila.pop() # retorna el ultimo elemento que ingresaste
+ultimo = pila[-1] # Es equitativo
+
+Colas: Firts In Firts Out, estructura FIFO
+
+enqueue - encolar
+dequeue - desencolar
+
+pila = [True, "abc", 4]
+cola.append(7.1)
+primero = cola[0]
+del cola[0]
+
+Arboles: Los grafos conexion que carecen de ciclos. Participa en Arboles de Ciencias de la Computación
+
++ Arboles de Hoffman
++ Ordenamiento heapsort
++ Arboles de Decisiones.
+
+Raiz: Que es el nodo que conecta a sus hijos
+
+Keras, TensorFLow, 
+

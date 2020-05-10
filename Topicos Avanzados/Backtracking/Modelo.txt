@@ -1,0 +1,9 @@
+Ejemplos de modelos
+
+resuelto = false
+while(not resuelto):
+	tomar_decision()
+	if(es_mala_decision):
+		volver_atras_en_el_tiempo()
+	else:
+		resuelto = True
